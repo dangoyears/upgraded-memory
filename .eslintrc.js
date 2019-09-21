@@ -13,5 +13,11 @@ module.exports = {
     'prefer-arrow-callback': 2, // 要求回调函数使用箭头函数
     'prefer-const': 2,
     'prefer-rest-params': 1, // 要求使用剩余参数而不是 arguments
+    "indent": ["warn", 2],
+    "no-trailing-spaces": "warn",
+    "quotes": ["warn", "single"],
+    "jsx-quotes": ["warn", "prefer-double"],
+    "eol-last": ["warn", "always"],
+    "semi": ["warn", "always"]
   }
 }
